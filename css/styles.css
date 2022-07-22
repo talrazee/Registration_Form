@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-form {
+    width: 330px;
+    height: 520px;
+    padding: 30px;
+    border: 5px solid #000;
+    border-radius: 5px;
+    background: #eeeeee;
+}
+
+form h1 {
+    color: black;
+}
+
+.input-style {
+    margin-top: 15px;
+}
+
+.input-style input {
+    width: 90%;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid;
+    outline: none;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.input-style label {
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.register input {
+    width: 90%;
+    margin-top: 5px;
+    padding: 10px;
+    background: grey;
+    outline: none;
+    border-radius: 5px;
+}
